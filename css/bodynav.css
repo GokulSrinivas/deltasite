@@ -1,0 +1,138 @@
+html, body {margin:0;padding:0;height:100%;}
+
+body 
+{
+	font-family: Helvetica;
+	/*background-color: #040F27;*/
+	/*#04225F;*/
+	/*background-image: url("./../images/landing.jpg");*/
+	/*background-image: url("./../images/Abstract-Blue-Wood-Wallpaper-Picture-209.jpg");*/
+	/*background-image: url("./../images/rsz_abstract-blue-wood-wallpaper-picture-209.jpg");*/
+	background-image: url("./../images/landing.svg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	position: absolute;
+	width:100%;
+	height:auto;
+	z-index: -1;
+	overflow-y: scroll;
+	overflow-x: hidden; 
+}
+#thenav
+{
+	height:10%;
+	position: fixed;
+	top:0;
+	width:100%;
+
+	/*min-height: 60px;
+	max-height: 70px;*/
+	
+	text-align: center;
+	vertical-align: middle;
+	/*background-color: rgba(4, 15, 30, 0.8);*/
+	/*background-color: rgba(1, 8, 39, 1);*/
+	background-color: rgba(0, 0, 0, 0.2);
+
+	z-index: 3;
+
+}
+.navlink
+{
+	-webkit-margin-after: 1em;
+	-webkit-margin-before: 1em;
+	-webkit-margin-end: 0px;
+	-webkit-margin-start: 0px;
+	-webkit-padding-start: 40px;
+	/*background-color: rgba(1, 8, 39, 0.8);*/
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 0px !important;
+	height:100%;
+	margin: 0px !important;
+	padding: none !important;
+}
+ul.navlist
+{
+	padding: 0px !important;
+	border-radius: 0px !important;
+	/*margin: 0px !important;*/
+	margin:0 auto;
+	text-align: center;
+	/*display: inline-block;*/
+	/*display: inline !important;*/
+	height:100%;
+	width:40%;
+}
+ul.navlist > a
+{
+	text-align: center;
+	padding:0px;
+	height:100%;
+	width:20%;
+	vertical-align: middle;
+	display: table;
+}
+ul.navlist > a > li
+{
+	text-align: center;
+	padding:20%;
+	/*background-color: rgba(4, 15, 30, 0.8);*/
+	/*background-color: rgba(1,8,39,0.8);origi*/ 
+	background-color: rgba(0,0,0,0);
+	/*color: rgba(2, 18, 89, 0.8);origi*/
+	color: rgba(0, 0, 0, 0.3);
+	/*color:#04225F;*/
+
+	display: table-cell;
+	vertical-align: middle;
+}
+ul.navlist > a > li:hover
+{
+	/*background-color: #06183D;*/
+	/*background-color: rgba(2,18,89,0.8);origi*/
+	background-color: rgba(0,0,0,0);
+	color: rgba(255,255,255,0.8);
+}
+ul.navlist > a > li.active
+{
+	/*background-color: rgba(2, 18, 89,0.8);*/
+	/*background-color: rgba(1, 8, 39, 0.8);orig*/
+	background-color: rgba(0, 0, 0, 0);
+	color: rgba(255,255,255,0.8);
+	/*color:#739BF1;*/
+}
+#scrolltotop
+{
+	position:fixed;
+	right:0;
+	bottom:0;
+	width:50px;
+	height: 50px;
+	background-color: rgb(0,0,0,0.8);
+	text-align: center;
+	vertical-align: middle;
+	z-index: 4;
+	font-size: 1em;
+
+	-webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    transition-duration: .3s;
+}
+#scrolltotop:hover
+{
+	font-size: 1.5em;
+	-webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    transition-duration: .3s;
+}
+#scrolltotop > i
+{
+	line-height: 50px;
+	/*color: white;*/
+	/*color: rgba(1,8,39,0.8);*/
+	color: white;
+}
