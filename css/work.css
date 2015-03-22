@@ -28,17 +28,58 @@
 	border-radius: 10px;
 	text-align: center;
 }
-#work > div > div > article > img
+#work > div > div > article > div
 {
 	position: relative;
-	top: 5%;
+	top: 30px;
 	/*left:2%;*/
 	width:96%;
-	height:40%;
+	height:40%;	
 }
+#work > div > div > article > div > img
+{
+	position: relative;
+	top: 30px;
+	left:2%;
+	width:96%;
+	height:90%;
+	z-index:4;
+
+	-webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    transition-duration: .3s;
+}
+#work > div > div > article > div > img:hover
+{
+	position: relative;
+	z-index:4;
+	top: 30px;
+	/*left:2%;*/
+	width:100%;
+	height:95%;
+	
+	-webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    transition-duration: .3s;
+}
+#work > div > div > article > h4 
+{
+	position: relative;
+	top: 50px;
+	font-size: 1.5em;
+	color: #010827;
+	font-weight: 300;
+	height:20%;
+}
+
 #work > div > div > article > h5
 {
-	/*position: relative;*/
-	/*top: 50%;*/
-
+	position: relative;
+	top: 20px;
+	font-size: 1.2em;
+	color: #010827;
+	font-weight: 300;
+	height:20%;
 }
